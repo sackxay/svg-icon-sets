@@ -1,3 +1,25 @@
 html {
 font-family: "Overpass", sans-serif;
 }
+
+#ship1 {
+  transform: translate(0, 0);
+  transition: all .5s linear;
+}
+
+#rocket:hover #ship1 {
+  transform: translate(0, -.6em);
+}
+
+#ship2 {
+  transform: translate(0, 0);
+  transition: all .5s linear;
+}
+
+#ship2:hover #ship2 {
+  transform: translate(0, -.6em);
+}
+
+#ship3 {
+  animation: eye-move 3s ease infinite;
+}
