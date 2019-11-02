@@ -1,5 +1,6 @@
 html {
 font-family: "Overpass", sans-serif;
+background-color: orange;
 }
 
 .ship1 {
@@ -10,7 +11,17 @@ font-family: "Overpass", sans-serif;
   fill: #ace63c;
 }
 
-svg {
+.shipp3 {
+  width: 100%;
+  height: 100%;
+}
+
+.icon {
   width: 50%;
-  height: 50;
+  height: 50%;
+}
+
+.cola {
+  width: 50%;
+  height: 50%;
 }
