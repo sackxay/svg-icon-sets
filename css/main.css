@@ -2,24 +2,15 @@ html {
 font-family: "Overpass", sans-serif;
 }
 
-#ship1 {
-  transform: translate(0, 0);
-  transition: all .5s linear;
+.ship1 {
+  fill: #94d31b;
+  max-height: 50%;
+}
+.ship1:hover {
+  fill: #ace63c;
 }
 
-#rocket:hover #ship1 {
-  transform: translate(0, -.6em);
-}
-
-#ship2 {
-  transform: translate(0, 0);
-  transition: all .5s linear;
-}
-
-#ship2:hover #ship2 {
-  transform: translate(0, -.6em);
-}
-
-#ship3 {
-  animation: eye-move 3s ease infinite;
+svg {
+  width: 50%;
+  height: 50;
 }
