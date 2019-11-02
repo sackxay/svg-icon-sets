@@ -1,6 +1,7 @@
 html {
 font-family: "Overpass", sans-serif;
 background-color: orange;
+color: #f1f1f1;
 }
 
 .ship1 {
@@ -24,4 +25,21 @@ background-color: orange;
 .cola {
   width: 50%;
   height: 50%;
+}
+
+p {
+  font-weight: 400;
+}
+
+.btn {
+  color: #f1f1f1;
+  border-color: #f1f1f1;
+}
+
+hr {
+  color: #f1f1f1;
+}
+
+svg {
+  color: white;
 }
