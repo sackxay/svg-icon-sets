@@ -1,25 +1,15 @@
 html {
 font-family: "Overpass", sans-serif;
-background-color: orange;
+background-color: #d2d3d2;
 color: #f1f1f1;
 }
 
-.ship1 {
+.shipp1 {
   fill: #94d31b;
   max-height: 50%;
 }
 .ship1:hover {
   fill: #ace63c;
-}
-
-.icon {
-  width: 50%;
-  height: 50%;
-}
-
-.cola {
-  width: 50%;
-  height: 50%;
 }
 
 p {
