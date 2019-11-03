@@ -1,19 +1,7 @@
 html {
 font-family: "Overpass", sans-serif;
-background-color: #d2d3d2;
+background-color: #ff9500;
 color: #f1f1f1;
-}
-
-.shipp1 {
-  fill: #94d31b;
-  max-height: 50%;
-}
-.ship1:hover {
-  fill: #ace63c;
-}
-
-p {
-  font-weight: 400;
 }
 
 .btn {
@@ -26,5 +14,8 @@ hr {
 }
 
 svg {
-  color: orange;
+  color: red;
+  fill: none;
+  stroke: none;
+  height: 90%;
 }
