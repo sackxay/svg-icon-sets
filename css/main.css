@@ -5,15 +5,8 @@ color: #f1f1f1;
 }
 
 
-hr {
-  color: #f1f1f1;
-}
-
-svg {
-  color: red;
-  fill: none;
-  stroke: none;
-  height: 90%;
+.break {
+  border-bottom: 3px solid rgba(255, 255, 255, .3);
 }
 
 body {
